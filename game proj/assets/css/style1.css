@@ -1,0 +1,25 @@
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url(../img/page-banner.jpg);
+    background-repeat: no-repeat;
+    object-fit:cover;
+    background-position: center;
+    height: 100%;
+   
+}
+
+.main-strategy {
+    font-size: 13px;
+} 
+
+
+.main-strategy i{
+    font-size: 8px !important;
+}
+
+.Games-by-Categories{
+    border-bottom: 1.5px solid  !important;
+}
+

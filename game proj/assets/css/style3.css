@@ -1,0 +1,97 @@
+:root {
+    --maincolor: #ffc311;
+  }
+  
+  .bg-main-color {
+    background-color: var(--maincolor);
+  }
+  
+  .main-color {
+    color: var(--maincolor) !important;
+  }
+  
+  .gray-color {
+    color: #999999;
+  }
+  
+  .poppins {
+    font-family: "Poppins", sans-serif;
+  }
+  .titillium-web {
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  w-80 {
+    width: 80%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  button {
+    color: white;
+  }
+  
+  .borders-color {
+    border-color: var(--maincolor) !important;
+  }
+  
+  .w-77 {
+    width: 77% !important;
+  }
+  
+  .w-35 {
+    width: 35% !important;
+  }
+  
+  .w-65 {
+    width: 65% !important;
+  }
+  
+  .w-15 {
+    width: 15% !important;
+  }
+
+  .w-99{
+    width: 99% !important;
+  }
+  
+  /*---------------------------------------------------------------------------------*/
+
+
+  .contact2 input::placeholder {
+    color: grey !important;
+  }
+
+  input:focus{
+    box-shadow: none !important;
+  }
+
+  .font-placeholder{
+    font-size: 12px !important;
+  }
+
+ .item-font{
+    font-size: 13px !important;
+   
+ } 
+
+ .form-p {
+  font-size: 14.5px !important;
+ }
+
+
+ .submit:hover {
+    background-color: black !important;
+    border-color: black !important;}
+
+
+.aa:hover{
+    color:var(--maincolor) !important;
+}

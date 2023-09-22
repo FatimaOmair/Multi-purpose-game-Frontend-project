@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,900;1,700&display=swap');
+
+.titillium-web {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.bg-gray1{
+  background-color: #777777 ;
+  backdrop-filter:initial;
+  background-clip: content-box;
+  backface-visibility: unset;
+}
+
+.clox-btn a {
+    position: relative;
+    color: var(--maincolor) ;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  
+   .clox-btn a:hover {
+    color: white !important;
+    background-color: #ffc311 ;
+    transition: .1s;
+  } 
+  
+ .clox-btn a::before  {
+    content: " ";
+    height: 1px;
+    position: absolute;
+    width: 100%;
+     background: var(--maincolor)  ;
+    bottom: 0px;
+    transition: .1s;
+    display: block;
+    left: 0px; 
+    z-index: 0;
+  
+  
+  }
+  
+  
+   .clox-btn a:hover::before {
+    content: " ";
+    height: 10%;
+    width: 100%;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white !important;
+    
+  
+  
+  }
+
+/*trailer---------------------------------------------------------------*/
+
+
+  .custom {
+  position: absolute !important;
+  right:5px !important;
+  bottom:210px !important;
+  height: 100px !important;
+  width: 200px !important;
+  
+  
+}
+
+ .trailer .carousel-control-next ,.trailer .carousel-control-prev{
+ width: 65% !important;
+ 
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-size:90px 110px !important;
+   
+  width:70px !important;
+  height: 110px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+} 
+
+
+@media (max-width: 950px) {
+   .clox-btn{
+    font-size: 10px  !important;
+  }
+  }
+
+
+  @media (max-width: 950px) {
+    .trailer-content .first-title{
+      font-size: 40px  !important;
+      padding-bottom: 4px !important;
+    }
+    }
+
+
+    @media (max-width: 767px) {
+      .custom{
+        right: 100px !important;
+      }
+      }
+
+      @media (max-width: 440px) {
+        .custom{
+          right: 5px !important;
+        }
+        }
+  
+
+  /*story of the game -------------------------*/
+  
+
+  @media  (min-width: 768px) and (max-width: 950px)  {
+    .story-of-the-game .about-title , .story-of-the-game p, .story-of-the-game .clox-btn{
+      font-size: 10px  !important;
+      padding: 0;
+     
+    }
+    }
+
+   
+  
+
+
+  
+/*features-of-the-game---------------------------------------------------*/
+  .story-of-the-game p, .features-of-the-game p{
+    font-size: 13px;
+  }
+
+
+  .features-of-the-game p{
+    font-size: 13px;
+    width: 90%;
+  }
+
+  
+
+  .item-section {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .item {
+    flex: 1;
+  }
+
+ 
+@media (max-width: 767px) {
+  .item-section {
+    flex-direction:column-reverse; 
+  }
+
+  
+  .item:nth-child(2) {
+    order: 1 ; 
+  }
+}
+
+  
+
+
+  @media (max-width: 950px) {
+    .features-of-the-game-content h2{
+      font-size: 25px  !important;
+      padding-bottom: 4px !important;
+    }
+    }
+
+    @media  (min-width: 768px) and (max-width: 950px)  {
+       .features-of-the-game-content h2 ,  .features-of-the-game-content p,  .features-of-the-game-content .clox-btn{
+        font-size: 10px  !important;
+        padding: 0;
+       
+      }
+      }
+
+      @media  (min-width: 570px) and (max-width: 767px)  {
+        .features-of-the-game-content img {
+         width: 516px !important;
+        
+       }
+       }
+
+   
+
+
+  /*home5-our-games---------------------------------------------------------*/
+
+  
+  .home5-card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .home5-card img {
+    width: 100%;
+    height: 100%;
+  }
+  .con {
+    bottom: 5%;
+    left: 30%;
+    transition: 0.3s;
+    overflow: hidden;
+    
+  }
+  .bg {
+    position: absolute;
+    z-index: 20;
+    top: 40%;
+    left: 40%;
+    right: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    color: white;
+    transition: 0.6s;
+    margin-left: 100%;
+   
+  }
+  .home5-card::after {
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    top: 0px;
+    transition: 0.3s;
+    left: 0px;
+   
+  
+  }
+  
+  .home5-card:hover::after {
+    height: 100%;
+    
+  }
+  .home5-card:hover .con {
+    transform: translateY(100px);
+    
+  }
+  
+  
+  .home5-card .bg{
+    font-size: 150px !important;
+    font-weight: lighter;
+   
+  }
+
+
+  .home5-card:hover .bg {
+        margin: auto;
+    
+  }
+
+  @media (max-width: 766px) {
+    .home5-card .featured-title{
+      font-size: 25px  !important;
+      padding-bottom: 4px !important;
+    }
+    }
+
+    @media (max-width: 380px) {
+      .home5-card .featured-title{
+        font-size: 15px  !important;
+        padding-bottom: 4px !important;
+      }
+      }
+    
+
+      @media (max-width: 950px) {
+        .home5-card .bg{
+          font-size: 70px  !important;
+          padding-bottom: 4px !important;
+        }
+        }
+  
+        
+      @media (max-width: 766px) {
+        .home5-card .bg{
+          font-size: 140px  !important;
+          padding-bottom: 4px !important;
+        }
+        }
+
+        
+      @media (max-width: 353px) {
+        .home5-card .bg{
+          font-size: 80px  !important;
+          padding-bottom: 4px !important;
+        }
+        }
+
+        @media (max-width: 295px) {
+          .home5-card .con p{
+            font-size: 10px  !important;
+           margin: auto   !important;
+          }
+          }
+  
+  
+     
+
+
+  /*platforms---------------------------------------------------*/
+
+  .platforms p{
+    font-size: 13px;
+   
+  }
+
+  @media  (min-width: 768px) and (max-width: 950px)  {
+    .platforms h2 ,  .platforms p,  .platforms .clox-btn{
+     font-size: 10px  !important;
+     padding: 0;
+    
+   }
+   }
+
+   @media  (max-width: 575px) {
+    .platforms .plat-img{
+  
+    }
+   }
+
+
+  /*home5-search-----------------------------------------------*/
+
+  .custom2{
+    top:50% !important;
+    left:50% !important;
+    transform: translateX(-50%) !important;
+    transform: translateY(-50%) !important;
+    opacity: 0;
+
+  }
+
+  .home55-card:hover .custom2 {
+   opacity: 100%;
+   transition: .3s .1s;
+  }
+
+ 
+
+  .home55-card::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    left: 0px;
+   
+  
+  }
+
+  .home55-card:hover::after {
+    height: 100%;
+    transition: .3s .1s;
+  }
+
+  .home55-search .col-md-2{
+    height: 140px !important;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .home55-card{
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+
+
+ 
+
+  
